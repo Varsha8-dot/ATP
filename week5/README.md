@@ -1,16 +1,51 @@
-# React + Vite
+React
+ It lets you break your UI into reusable components.
+ JSX – JavaScript XML. Lets you write HTML inside JavaScript.
+ useState – A hook to add state to a functional component.
+useEffect – A hook to run side effects (like fetching data) after render.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###steps
+React is a JavaScript library for building UI
+Everything in React is a component
+Components return JSX (HTML inside JavaScript)
+Props pass data from parent to child
+State stores data that can change inside a component
+useState manages state in a component
+useEffect runs code when component loads or data changes
+useRef accesses a DOM element directly
+useContext shares data across components without props
+.map() is used to render lists of elements
+Every list item needs a unique key prop
+Controlled inputs are driven by state
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Vite
+Vite is a build tool and dev server for modern frontend projects.
+It's much faster than older tools like Webpack.
+Config File – vite.config.js is where you configure plugins, aliases, and build options.
 
-## React Compiler
+npm create vite@latest my-app -- --template react
+cd my-app
+npm install
+npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+###steps
+npm create vite@latest sets up a new project
+npm run dev starts the local development server
+npm run build creates the production-ready files
+npm run preview tests the production build locally
+.env file stores secret keys and config values
+All Vite env variables must start with VITE_
+vite.config.js is where you configure the project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+
+###package
+tailwindcss — styling with utility classes
+
+
+
