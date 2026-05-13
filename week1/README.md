@@ -5,7 +5,6 @@ Useful for comparing values and controlling the flow of a program.
 
 Arrays & Array Methods
 An array is a collection of values stored in a single variable. JavaScript provides built-in methods to work with arrays:
-
 splice() – Used to add, remove, or replace elements at a specific position in an array.
 find() – Searches through an array and returns the first element that matches a given condition
 
