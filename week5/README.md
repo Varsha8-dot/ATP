@@ -3,8 +3,7 @@ React
  JSX – JavaScript XML. Lets you write HTML inside JavaScript.
  useState – A hook to add state to a functional component.
 useEffect – A hook to run side effects (like fetching data) after render.
-
-###steps
+steps
 React is a JavaScript library for building UI
 Everything in React is a component
 Components return JSX (HTML inside JavaScript)
