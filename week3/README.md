@@ -31,8 +31,6 @@ mongodb connection and express server
 - Mongoose
 
 
-
-
 4.Build USER REST api
 
          -Create user
